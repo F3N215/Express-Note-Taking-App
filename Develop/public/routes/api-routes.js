@@ -15,6 +15,7 @@ module.exports = (app) => {
     res.json(db);
     let userNote = {
       title: req.body.title,
+      text: req.body.text,
     };
   });
 };
