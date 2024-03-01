@@ -17,5 +17,7 @@ module.exports = (app) => {
       title: req.body.title,
       text: req.body.text,
     };
+
+    notes.push(userNote);
   });
 };
