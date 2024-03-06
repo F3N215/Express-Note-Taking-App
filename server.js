@@ -3,7 +3,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express(); // use express
-const uuid = require("/Develop/public/helpers/uuid");
+const uuid = require("./public/helpers/uuid");
 const PORT = process.env.PORT || 3001;
 // const PORT = 3001;
 
@@ -17,7 +17,5 @@ app.use(express.urlencoded({ extended: true }));
 require("./routes/api-routes")(app);
 require("./routes/html-routes")(app);
 
-app.listen(PORT, () => {
-  // starts server
-  console.log(`Your server is ready at localhost${PORT}`);
-});
+// start server
+app.listen(process.env.PORT || 3001);
