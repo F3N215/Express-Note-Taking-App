@@ -1,19 +1,23 @@
+// calls dependencies
 const express = require("express");
 const path = require("path");
 
-const app = express();
+const app = express(); // use express
 const uuid = require("/Develop/public/helpers/uuid");
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
+// const PORT = 3001;
 
-// use express to create route files, encode url
+// use express to create route files in /public folder
+app.use(express.static("./public"));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("/Develop/public/routes"));
 
 // route files
-require("/Develop/public/routes/api-routes")(app);
-require("/Develop/public/routes/html-routes")(app);
+require("./routes/api-routes")(app);
+require("./routes/html-routes")(app);
 
 app.listen(PORT, () => {
-  console.log(`Server available at localhost${PORT}`);
+  // starts server
+  console.log(`Your server is ready at localhost${PORT}`);
 });
