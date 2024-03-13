@@ -21,9 +21,13 @@ module.exports = (app) => {
       id: uniqid(), // adds a unique id for each note
     };
     db.push(userNote); // push note created in db.json
-    fs.writeFileSync('db/db.json,' JSON.stringify(db));
+    fs.writeFileSync("db/db.json", JSON.stringify(db));
     res.json(db);
-
-    notes.push(userNote);
+  });
+  app.delete("/api/notes/:id", (req, res) => {
+    let db = JSON.parse(fs.readFileSync("/db/db.json"));
+    let deleteNotes = db.filter((item) => item.id !== req.params.id);
+    fs.writeFileSync("/db/db.json", JSON.stringify(deleteNotes));
+    res.json(deleteNotes);
   });
 };
