@@ -2,6 +2,8 @@
 const path = require("path");
 const fs = require("fs");
 
+var uniqid = require("uniqid");
+
 // routing syntax
 module.exports = (app) => {
   app.get("/Develop/public/notes.html", (req, res) => {
@@ -16,7 +18,11 @@ module.exports = (app) => {
     let userNote = {
       title: req.body.title,
       text: req.body.text,
+      id: uniqid(), // adds a unique id for each note
     };
+    db.push(userNote); // push note created in db.json
+    fs.writeFileSync('db/db.json,' JSON.stringify(db));
+    res.json(db);
 
     notes.push(userNote);
   });
