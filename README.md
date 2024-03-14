@@ -1,13 +1,12 @@
 # Express.js Challenge // Note-Taker App
 
 ##### _Languages & Tools Used_ 🛠
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
 
 #### _Links_
-* <a href="https://github.com/F3N215/OOP-SVG-Maker/blob/main/index.js">Index</a>
-* <a href="https://github.com/F3N215/OOP-SVG-Maker/blob/main/lib/shapes.js">Shape Constructors</a>
-* <a href="https://github.com/F3N215/OOP-SVG-Maker/blob/main/lib/shapes.test.js">Testing</a>
-* <a href="https://streamable.com/m4kbjk">Video Demo</a>
+* <a href="https://github.com/F3N215/OOP-SVG-Maker/blob/main/index.js">Public Folder</a>
+* <a href="https://github.com/F3N215/Express-Note-Taking-App/tree/main/routes">Routes Folder</a>
+* <a href="https://streamable.com/boe3an">Video Demo</a>
 
 -----
 ## Project Summary 📋
@@ -19,14 +18,14 @@
 # Initial Work & Study 💻  
 * Searched through previous classes, online tutorials, and studied proper syntax for back end/front end merging
 * Scheduled regular meetings with my mentor & tutor
-* Reviewed online videos to for Heroku deployment troubleshooting
+* Reviewed online videos for Heroku deployment troubleshooting
 * Reviewed previous class sessions and activities for Express
 
 -----
 ## How to Install 📝  
 * Clone this repository from GitHub, or retrieve a downloaded .zip folder from this repository
 * Open this repository in any source code editor, VS Code is preferred
-* Using your terminal, install express and uniqid to ensure the cloned version works
+* Using your terminal, install 'express' and 'uniqid' to ensure the cloned version works
 
 -----
 ## Screenshots 📸
