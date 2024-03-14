@@ -1,9 +1,9 @@
 // calls dependencies
 const express = require("express");
-const path = require("path");
-
 const app = express(); // use express
-const uuid = require("./public/helpers/uuid");
+const apiRoutes = require("./routes/api-routes");
+const htmlRoutes = require("./routes/html-routes");
+
 const PORT = process.env.PORT || 3001;
 // const PORT = 3001;
 
@@ -14,8 +14,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // route files
-require("./routes/api-routes")(app);
-require("./routes/html-routes")(app);
+app.use("/api", apiRoutes);
+app.use(htmlRoutes);
 
 // start server
-app.listen(process.env.PORT || 3001);
+app.listen(PORT);

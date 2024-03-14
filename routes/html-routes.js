@@ -1,14 +1,15 @@
-//call dependencies
+// call dependencies
 const path = require("path");
+const router = require("express").Router();
 
 // GET returns notes.html file
-module.exports = (app) => {
-  app.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "/public/notes.html"));
-  });
+router.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/notes.html"));
+});
 
-  // GET * to return index.html file
-  app.get("*", (req, res) => {
-    res.SendFile(path.join(__dirname, "/"));
-  });
-};
+// GET * to return index.html file
+router.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "/"));
+});
+
+module.exports = router;
