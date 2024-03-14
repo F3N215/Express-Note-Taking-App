@@ -7,6 +7,7 @@
 * <a href="https://github.com/F3N215/OOP-SVG-Maker/blob/main/index.js">Public Folder</a>
 * <a href="https://github.com/F3N215/Express-Note-Taking-App/tree/main/routes">Routes Folder</a>
 * <a href="https://streamable.com/boe3an">Video Demo</a>
+* <a href="https://dans-note-taker-4d4521d7ba48.herokuapp.com/">Heroku Deployment Link</a>
 
 -----
 ## Project Summary 📋
@@ -26,11 +27,6 @@
 * Clone this repository from GitHub, or retrieve a downloaded .zip folder from this repository
 * Open this repository in any source code editor, VS Code is preferred
 * Using your terminal, install 'express' and 'uniqid' to ensure the cloned version works
-
------
-## Screenshots 📸
-* <a href="https://streamable.com/m4kbjk">SVG Creation Recording</a>
-* <a href="https://github.com/F3N215/OOP-SVG-Maker/blob/main/Images/Screenshot-1.png">Screenshot Showcasing User Inputs + Logo</a>
 
 -----
 ## About Me
